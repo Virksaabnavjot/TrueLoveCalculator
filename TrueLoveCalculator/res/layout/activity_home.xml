@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent" >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF0066" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/round_corners"
+        android:text="  Hint : Scroll Left to Navigate " />
+
+    <EditText
+        android:id="@+id/EditText01"
+        android:layout_width="fill_parent"
+        android:layout_height="100px"
+        android:layout_marginRight="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/editText1"
+        android:background="@drawable/round_corners"
+        android:drawableLeft="@drawable/great_love"
+        android:ems="10"
+        android:hint="  Lovers Birth Year"
+        android:inputType="textPersonName"
+        android:textColor="#FF0000"
+        android:textColorHint="#FF0000" />
+
+    <EditText
+        android:id="@+id/editText1"
+         android:layout_width="fill_parent"
+        android:layout_height="100px"
+        android:layout_marginRight="55dp"
+        
+        android:layout_below="@+id/editText2"
+        android:background="@drawable/round_corner1"
+        android:drawableLeft="@drawable/ic_launcher"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:hint="  Your Name"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/EditText02"
+         android:layout_width="fill_parent"
+        android:layout_height="100px"
+        android:layout_marginRight="55dp"
+        android:layout_centerHorizontal="true"
+        
+        android:layout_below="@+id/EditText01"
+        android:background="@drawable/round_corner1"
+        android:drawableLeft="@drawable/ic_launcher"
+        android:ems="10"
+        android:hint="  Your Birth Year"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/EditText02"
+        android:layout_below="@+id/EditText02"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/round_corners"
+        android:drawableLeft="@drawable/great_love"
+        android:drawableRight="@drawable/ic_launcher"
+        android:onClick="submitAll"
+        android:text="Calculate"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000" />
+
+    <TextView
+        android:id="@+id/no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_margin="20px"
+        android:text="A Navjot Singh Production"
+        android:textColor="#ffffff"
+        android:textSize="70px" />
+
+    <TextView
+        android:id="@+id/yoyohoneysingh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/no"
+        android:layout_margin="20px"
+        android:text="
+We’re looking for an outstanding Agile Coach who knows how to work with a 
+team of highly skilled engineers in a fast moving agile environment. As an Agile
+Coach at Spotify you are passionate about agile, communication, group dynamics and 
+ You are not afraid to raise issues and drive change to remove impediments from your 
+ team and to improve the organization.
+\n
+\n
+Responsibilities
+
+Coach teams facing tough challenges e.g. related to how they work and interact together
+
+Coach individuals in order for them to grow and develop
+
+Develop the leadership team within Spotify
+
+Teach teams agile methodologies
+
+Facilitate learning through workshops, meetings, and team offsites
+
+Actively try to identify waste and areas of improvement
+\n
+\n
+
+The Agile Coaches at Spotify have different backgrounds but all work toward a common goal:
+ creating autonomous, self-organizing, empowered, and continuously improving teams.
+  We actively reflect on our own behavior and continuously attempt to improve our most
+   important asset - our people, and our way of working. We use retrospectives, workshops, 
+ clubs, feedback, reflection, educations, and many other tools to do this.
+\n
+\n
+Qualifications:
+
+You have more than three years experience working as an Agile Coach, Scrum Master, 
+Product Owner or Team Lead with agile software development teams, ideally in a 
+technology start-up.
+\n
+You have experience using a combination of lean and agile practices to help teams succeed 
+and organizations evolve.
+\n
+You have a genuine passion for helping teams and individuals grow.
+
+You have the ability to work with high-performing teams and challenge them to improve even further
+
+You’re energized by working in a fast-moving start-up environment and would enjoy helping shape a growing organization.
+
+You’re located in (or willing to relocate to) New York.
+\n \n
+People who meet us tend to comment on our energy and the passion we have for 
+what we’re doing. We hope it’s infectious! At such a fast moving company you’ll find 
+opportunities rather than boundaries in every single role.
+
+\n \n
+Who are we looking for?
+\n
+Experience from working with analysis at a consumer-oriented company in the digital space.
+A degree in mathematics, statistics or computer science is meriting.
+The key skill we are looking for is intellectual curiosity and the ability to understand and 
+solve not always well-defined problems and come up with relevant answers to guide our business
+ decisions.However this needs to be combined with a passion for numbers, statistics as well 
+ as strong business and financial acumen.
+To be able to work with our very large datasets and automate processes, programming skills
+ is a must.
+Experience with modelling in Excel.
+ \n
+ 
+Most of the Spotify backend is written in Python, but previous experience with Python is 
+not required. If you’re the one we’re looking for, you want to grow and learning new programming 
+languages is something you do with ease anyway. You should preferably have worked with large data
+ sets before, the larger, the better. Experience with various databases, MapReduce and similar
+  is definitely something we value.
+ \n
+You’ll be working with a world-class team of analysts and engineers who are passionate about
+ what they do - and we expect no less from you. You should have an insatiable appetite for
+  learning new things and improving existing ones. If you’re the right one for us, you pay 
+ to details and take great pride in your work.
+ \n
+People who meet us tend to comment on our energy, and the passion we have for what we’re doing.
+ We hope it’s infectious! At such a fast moving start up you’ll find opportunities rather than
+  boundaries in every single role.
+\n
+\n
+\n
+THE END
+THANK YOU
+"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignRight="@+id/no"
+        android:background="@drawable/round_corners"
+        android:text="Text"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="fill_parent"
+        android:layout_height="100px"
+        android:layout_marginRight="55dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        
+        android:background="@drawable/round_corners"
+        android:drawableLeft="@drawable/great_love"
+        android:ems="10"
+        android:hint="  Lover Name"
+        android:inputType="textPersonName"
+        android:textColor="#FF0000"
+        android:textColorHint="#FF0000" />
+
+</RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF00" >
+
+    <VideoView
+        android:id="@+id/video1"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/video1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="A couple of pencil-outlined birds escape from a little girl´s drawing, leading us through the life she dreams of." />
+
+    <Button
+        android:id="@+id/openVideoLibraryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="40dp"
+        android:text="OPEN FULL VIDEO LIBRARY"
+        android:background="#FFFFFF"
+         />
+
+</RelativeLayout>

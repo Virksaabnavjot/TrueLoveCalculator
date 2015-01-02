@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".VideoLibrary" >
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youtubeplayerview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+    </com.google.android.youtube.player.YouTubePlayerView>
+
+    <Button
+        android:id="@+id/v1BTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/button2"
+        android:layout_centerVertical="true"
+        android:onClick="v1"
+        android:text="Next" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/button1"
+        android:layout_below="@+id/v1BTN"
+        android:text="Playlist"
+        android:onClick="playList"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button2"
+        android:onClick="main"
+        android:text="Exit Library" />
+
+</RelativeLayout>

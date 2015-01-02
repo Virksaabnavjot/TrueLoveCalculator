@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    tools:context=".VideoPlaylist" >
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button5"
+        android:layout_alignLeft="@+id/button2"
+        android:text="Video6"
+        android:onClick="v5" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button6"
+        android:layout_alignBottom="@+id/button6"
+        android:layout_toLeftOf="@+id/button4"
+        android:text="Video7"
+        android:onClick="v6" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button7"
+        android:layout_alignParentRight="true"
+        android:text="Video8" 
+        android:onClick="v7"/>
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button9"
+        android:layout_alignBottom="@+id/button9"
+        android:layout_alignLeft="@+id/button6"
+        android:text="Video10" 
+        android:onClick="v9"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:text="Video1"
+        android:onClick="videoLibrary" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button5"
+        android:layout_toRightOf="@+id/button1"
+        android:text="Video2"
+        android:onClick="v1" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_toRightOf="@+id/button2"
+        android:text="Video3"
+        android:onClick="v2" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button5"
+        android:layout_alignParentRight="true"
+        android:text="Video4"
+        android:onClick="v3" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_toLeftOf="@+id/button6"
+        android:onClick="v4"
+        android:text="Video5" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button5"
+        android:onClick="v8"
+        android:text="Video9" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button10"
+        android:layout_alignBottom="@+id/button10"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/button10"
+        android:text="Exit Videos"
+        android:onClick="main" />
+
+</RelativeLayout>

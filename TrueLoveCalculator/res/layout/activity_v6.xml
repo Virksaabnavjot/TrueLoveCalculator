@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    tools:context=".V6" >
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/v6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+    </com.google.android.youtube.player.YouTubePlayerView>
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:onClick="playList"
+        android:text="Playlist" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button2"
+        android:onClick="v5"
+        android:text="Previous" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/button1"
+        android:layout_centerVertical="true"
+        android:onClick="v7"
+        android:text="Next" />
+
+</RelativeLayout>

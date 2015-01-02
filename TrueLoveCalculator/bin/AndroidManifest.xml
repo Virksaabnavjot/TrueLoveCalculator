@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="my.android.truelovecalculator"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="my.android.truelovecalculator.MainActivity"
+            android:label="@string/app_name" >
+
+            <!--
+            intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name="my.android.truelovecalculator.SplashActivity"
+            android:label="@string/title_activity_splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="my.android.truelovecalculator.ResultActivity"
+            android:label="@string/title_activity_result" >
+        </activity>
+        <activity
+            android:name="my.android.truelovecalculator.VideoLibrary"
+            android:label="@string/title_activity_video_library" >
+        </activity>
+        <activity
+            android:name="my.android.truelovecalculator.V1"
+            android:label="@string/title_activity_v1" >
+        </activity>
+        <activity
+            android:name="my.android.truelovecalculator.V2"
+            android:label="@string/title_activity_v2" >
+        </activity>
+        <activity
+            android:name="my.android.truelovecalculator.V3"
+            android:label="@string/title_activity_v3" >
+        </activity>
+        <activity
+            android:name="my.android.truelovecalculator.V4"
+            android:label="@string/title_activity_v4" >
+        </activity>
+        <activity
+            android:name="my.android.truelovecalculator.V5"
+            android:label="@string/title_activity_v5" >
+        </activity>
+        <activity
+            android:name="my.android.truelovecalculator.V6"
+            android:label="@string/title_activity_v6" >
+        </activity>
+        <activity
+            android:name="my.android.truelovecalculator.V7"
+            android:label="@string/title_activity_v7" >
+        </activity>
+        <activity
+            android:name="my.android.truelovecalculator.V8"
+            android:label="@string/title_activity_v8" >
+        </activity>
+        <activity
+            android:name="my.android.truelovecalculator.V9"
+            android:label="@string/title_activity_v9" >
+        </activity>
+        <activity
+            android:name="my.android.truelovecalculator.VideoPlaylist"
+            android:label="@string/title_activity_video_playlist" >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+
+</manifest>

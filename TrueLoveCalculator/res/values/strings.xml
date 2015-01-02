@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">True Love Calculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">Calculate Love</string>
+    <string name="title_section2">Love Tips</string>
+    <string name="title_section3">Touching Videos</string>
+    <string name="title_section4">Horoscope</string>
+    <string name="title_section5">DOB Match</string>
+    <string name="title_section6">Fruit Match</string>
+    <string name="title_section7">About Us</string>
+    <string name="title_activity_splash">True Love Calculator</string>
+    <string name="hello_world">Satnaam Shri Waheguru</string>
+    <string name="loveMessage">Heart Touching Lines By \nA True Lover 2 His Love \n"In My Dream U R Mine. \nBut In My Life U R My \nDream!!"</string>
+    <string name="title_activity_result">Your Love Result</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+    <string name="title_activity_video_library">VideoLibrary</string>
+    <string name="title_activity_v1">VideoLibrary</string>
+    <string name="title_activity_v2">VideoLibrary</string>
+    <string name="title_activity_v3">VideoLibrary</string>
+    <string name="title_activity_v4">VideoLibrary</string>
+    <string name="title_activity_v5">VideoLibrary</string>
+    <string name="title_activity_v6">VideoLibrary</string>
+    <string name="title_activity_v7">VideoLibrary</string>
+    <string name="title_activity_v8">VideoLibrary</string>
+    <string name="title_activity_v9">VideoLibrary</string>
+    <string name="title_activity_video_playlist">VideoPlaylist</string>
+
+</resources>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#FF0066">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/round_corners"
+        android:text="  Hint : Scroll Left to Navigate "
+         />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/round_corners"
+        android:drawableLeft="@drawable/great_love"
+        android:ems="10"
+        android:hint="  Lover Name"
+        android:inputType="textPersonName"
+        android:textColor="#FF0000"
+        android:textColorHint="#FF0000" />
+
+    <EditText
+        android:id="@+id/EditText01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editText1"
+        android:background="@drawable/round_corners"
+        android:drawableLeft="@drawable/great_love"
+        android:ems="10"
+        android:hint="  Lovers Birth Year"
+        android:inputType="textPersonName"
+        
+        android:textColor="#FF0000"
+        android:textColorHint="#FF0000" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editText2"
+        android:background="@drawable/round_corner1"
+        android:drawableLeft="@drawable/ic_launcher"
+        android:ems="10"
+        android:hint="  Your Name"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/EditText02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/EditText01"
+        android:background="@drawable/round_corner1"
+        android:drawableLeft="@drawable/ic_launcher"
+        android:ems="10"
+        android:hint="  Your Birth Year"
+        android:inputType="textPersonName"
+        
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/EditText01"
+        android:layout_alignLeft="@+id/imageView2"
+        android:text="God Bless"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView1"
+        android:layout_alignLeft="@+id/imageView1"
+        android:src="@drawable/great_love" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/EditText02"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/EditText01"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignTop="@+id/EditText02"
+        android:text="You two"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView01"
+        android:layout_alignTop="@+id/button1"
+        android:text="Text"
+        android:textSize="40dp" 
+        android:background="@drawable/round_corners"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/EditText02"
+        android:layout_toLeftOf="@+id/imageView1"
+        android:background="@drawable/round_corners"
+        android:drawableLeft="@drawable/great_love"
+        android:drawableRight="@drawable/ic_launcher"
+        android:onClick="submitAll"
+        android:text="Calculate"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000" />
+
+</RelativeLayout>

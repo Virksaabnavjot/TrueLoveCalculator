@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+   
+   android:background="#FF0066"
+    android:gravity="left"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SplashActivity" >
+  <!--   android:background="#FF0000"  -->
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="54dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:paddingTop="45dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/loveisgreat" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="52dp"
+        android:text="@string/loveMessage"
+        android:textColor="#FFFFFF"
+        android:textSize="35dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:text="TRUE LOVE CALCULATOR"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="60dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

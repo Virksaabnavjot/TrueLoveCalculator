@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    tools:context=".V9" >
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/v9"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+    </com.google.android.youtube.player.YouTubePlayerView>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="169dp"
+        android:onClick="v8"
+        android:text="Previous" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/button1"
+        android:onClick="main"
+        android:text="Next" />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/button1"
+        android:layout_alignTop="@+id/button1"
+        android:layout_marginTop="50dp"
+        android:onClick="playList"
+        android:text="Playlist" />
+
+</RelativeLayout>

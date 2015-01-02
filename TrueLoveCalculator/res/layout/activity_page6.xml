@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Note: scrollviev can only accomodate one layout inside it -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent" >
+
+<LinearLayout 
+android:orientation="vertical"
+android:layout_margin="20px"
+
+android:layout_width="fill_parent"
+android:layout_height="fill_parent" >
+<ImageView
+android:id="@+id/imageDisplay"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content" 
+android:src="@drawable/loveisgreat"/>
+<TextView
+android:id="@+id/imageTitle"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" 
+android:text="A Navjot Singh Production"
+android:textSize="70px"
+android:textColor="#ffffff"/>
+
+
+
+</LinearLayout>
+</ScrollView>
+
+<!--  RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#6600CC">
+    
+
+</RelativeLayout-->
+
